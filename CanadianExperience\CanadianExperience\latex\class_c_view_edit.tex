@@ -1,0 +1,155 @@
+\hypertarget{class_c_view_edit}{\section{C\+View\+Edit Class Reference}
+\label{class_c_view_edit}\index{C\+View\+Edit@{C\+View\+Edit}}
+}
+
+
+{\ttfamily \#include $<$View\+Edit.\+h$>$}
+
+Inheritance diagram for C\+View\+Edit\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_view_edit}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_view_edit_a99fea37450207a1ffe8cf6b46ec2a11f}{C\+View\+Edit} ()
+\item 
+virtual \hyperlink{class_c_view_edit_a968f16ef61489033c80ebe504017db3a}{$\sim$\+C\+View\+Edit} ()
+\item 
+virtual void \hyperlink{class_c_view_edit_ac2b73f20fe10a4a98096facde6450e5a}{Update\+Observer} () override
+\item 
+afx\+\_\+msg B\+O\+O\+L \hyperlink{class_c_view_edit_a66446b22920245bb3b5c5735754d63cd}{On\+Erase\+Bkgnd} (C\+D\+C $\ast$p\+D\+C)
+\item 
+afx\+\_\+msg void \hyperlink{class_c_view_edit_a0e77d59dd1ed299c933f660d9ff0cf7e}{On\+L\+Button\+Down} (U\+I\+N\+T n\+Flags, C\+Point point)
+\item 
+afx\+\_\+msg void \hyperlink{class_c_view_edit_aba0b38ee4b51f9d98bc08ade92d9f051}{On\+Mouse\+Move} (U\+I\+N\+T n\+Flags, C\+Point point)
+\item 
+void \hyperlink{class_c_view_edit_a28bb793d43baba78e9b1c704b4f0e128}{Set\+Main\+Frame} (\hyperlink{class_c_main_frame}{C\+Main\+Frame} $\ast$main\+Frame)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_c_view_edit_a8cf50c2cebab5aaecda5ae6f7437cf38}{On\+Draw} (C\+D\+C $\ast$p\+D\+C)
+\item 
+virtual void \hyperlink{class_c_view_edit_ac49ed2e9e35cd014c6539aaa4ac705f3}{On\+Initial\+Update} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+View class the provides a window for editing our pixture 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_view_edit_a99fea37450207a1ffe8cf6b46ec2a11f}{\index{C\+View\+Edit@{C\+View\+Edit}!C\+View\+Edit@{C\+View\+Edit}}
+\index{C\+View\+Edit@{C\+View\+Edit}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{C\+View\+Edit}]{\setlength{\rightskip}{0pt plus 5cm}C\+View\+Edit\+::\+C\+View\+Edit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_view_edit_a99fea37450207a1ffe8cf6b46ec2a11f}
+Constructor \hypertarget{class_c_view_edit_a968f16ef61489033c80ebe504017db3a}{\index{C\+View\+Edit@{C\+View\+Edit}!````~C\+View\+Edit@{$\sim$\+C\+View\+Edit}}
+\index{````~C\+View\+Edit@{$\sim$\+C\+View\+Edit}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{$\sim$\+C\+View\+Edit}]{\setlength{\rightskip}{0pt plus 5cm}C\+View\+Edit\+::$\sim$\+C\+View\+Edit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_view_edit_a968f16ef61489033c80ebe504017db3a}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_view_edit_a8cf50c2cebab5aaecda5ae6f7437cf38}{\index{C\+View\+Edit@{C\+View\+Edit}!On\+Draw@{On\+Draw}}
+\index{On\+Draw@{On\+Draw}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{On\+Draw}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+On\+Draw (
+\begin{DoxyParamCaption}
+\item[{C\+D\+C $\ast$}]{p\+D\+C}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_edit_a8cf50c2cebab5aaecda5ae6f7437cf38}
+Drawing of the window 
+\begin{DoxyParams}{Parameters}
+{\em p\+D\+C} & the device context to draw on \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_edit_a66446b22920245bb3b5c5735754d63cd}{\index{C\+View\+Edit@{C\+View\+Edit}!On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}}
+\index{On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{On\+Erase\+Bkgnd}]{\setlength{\rightskip}{0pt plus 5cm}B\+O\+O\+L C\+View\+Edit\+::\+On\+Erase\+Bkgnd (
+\begin{DoxyParamCaption}
+\item[{C\+D\+C $\ast$}]{p\+D\+C}
+\end{DoxyParamCaption}
+)}}\label{class_c_view_edit_a66446b22920245bb3b5c5735754d63cd}
+Erase the background
+
+This is disabled to eliminate flicker 
+\begin{DoxyParams}{Parameters}
+{\em p\+D\+C} & Device context \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+F\+A\+L\+S\+E 
+\end{DoxyReturn}
+\hypertarget{class_c_view_edit_ac49ed2e9e35cd014c6539aaa4ac705f3}{\index{C\+View\+Edit@{C\+View\+Edit}!On\+Initial\+Update@{On\+Initial\+Update}}
+\index{On\+Initial\+Update@{On\+Initial\+Update}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{On\+Initial\+Update}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+On\+Initial\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_edit_ac49ed2e9e35cd014c6539aaa4ac705f3}
+Handle uial update of the window \hypertarget{class_c_view_edit_a0e77d59dd1ed299c933f660d9ff0cf7e}{\index{C\+View\+Edit@{C\+View\+Edit}!On\+L\+Button\+Down@{On\+L\+Button\+Down}}
+\index{On\+L\+Button\+Down@{On\+L\+Button\+Down}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{On\+L\+Button\+Down}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+On\+L\+Button\+Down (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T}]{n\+Flags, }
+\item[{C\+Point}]{point}
+\end{DoxyParamCaption}
+)}}\label{class_c_view_edit_a0e77d59dd1ed299c933f660d9ff0cf7e}
+Handle a left button click 
+\begin{DoxyParams}{Parameters}
+{\em n\+Flags} & Flags that indicate status of the mouse buttons \\
+\hline
+{\em point} & The x,y location for the mouse click \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_edit_aba0b38ee4b51f9d98bc08ade92d9f051}{\index{C\+View\+Edit@{C\+View\+Edit}!On\+Mouse\+Move@{On\+Mouse\+Move}}
+\index{On\+Mouse\+Move@{On\+Mouse\+Move}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{On\+Mouse\+Move}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+On\+Mouse\+Move (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T}]{n\+Flags, }
+\item[{C\+Point}]{point}
+\end{DoxyParamCaption}
+)}}\label{class_c_view_edit_aba0b38ee4b51f9d98bc08ade92d9f051}
+Handle mouse movement 
+\begin{DoxyParams}{Parameters}
+{\em n\+Flags} & Flags that indicate status of the mouse buttons \\
+\hline
+{\em point} & The x,y location for the mouse \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_edit_a28bb793d43baba78e9b1c704b4f0e128}{\index{C\+View\+Edit@{C\+View\+Edit}!Set\+Main\+Frame@{Set\+Main\+Frame}}
+\index{Set\+Main\+Frame@{Set\+Main\+Frame}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{Set\+Main\+Frame}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+Set\+Main\+Frame (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Main\+Frame} $\ast$}]{main\+Frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_view_edit_a28bb793d43baba78e9b1c704b4f0e128}
+Set the main\+Frame pointer 
+\begin{DoxyParams}{Parameters}
+{\em main\+Frame} & Pointer to the \hyperlink{class_c_main_frame}{C\+Main\+Frame} window \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_edit_ac2b73f20fe10a4a98096facde6450e5a}{\index{C\+View\+Edit@{C\+View\+Edit}!Update\+Observer@{Update\+Observer}}
+\index{Update\+Observer@{Update\+Observer}!C\+View\+Edit@{C\+View\+Edit}}
+\subsubsection[{Update\+Observer}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Edit\+::\+Update\+Observer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}}\label{class_c_view_edit_ac2b73f20fe10a4a98096facde6450e5a}
+Force an update of this window when the picture changes. 
+
+Implements \hyperlink{class_c_picture_observer_a0dce27216a8cb8a2490f0efc83a5994a}{C\+Picture\+Observer}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_view_edit_8h}{View\+Edit.\+h}\item 
+\hyperlink{_view_edit_8cpp}{View\+Edit.\+cpp}\end{DoxyCompactItemize}

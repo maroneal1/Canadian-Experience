@@ -1,0 +1,237 @@
+\hypertarget{class_c_main_frame}{\section{C\+Main\+Frame Class Reference}
+\label{class_c_main_frame}\index{C\+Main\+Frame@{C\+Main\+Frame}}
+}
+
+
+{\ttfamily \#include $<$Main\+Frm.\+h$>$}
+
+Inheritance diagram for C\+Main\+Frame\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_main_frame}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_c_main_frame_a89722c82d82f95a761772a8dd9755b7b}{Motion\+Modes} \{ {\bfseries Move}, 
+{\bfseries Rotate}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_main_frame_af3e997aeae4148d2aaa4a1e1ae7bdd53}{C\+Main\+Frame} ()
+\item 
+\hyperlink{class_c_main_frame_a89722c82d82f95a761772a8dd9755b7b}{Motion\+Modes} \hyperlink{class_c_main_frame_a76c571ab75752dba8049e08f5e4ac920}{Get\+Mode} () const 
+\item 
+\hypertarget{class_c_main_frame_a549bf677c955c2898c3c683321633c16}{virtual B\+O\+O\+L {\bfseries Pre\+Create\+Window} (C\+R\+E\+A\+T\+E\+S\+T\+R\+U\+C\+T \&cs)}\label{class_c_main_frame_a549bf677c955c2898c3c683321633c16}
+
+\item 
+\hypertarget{class_c_main_frame_ade959eb0bab719bf06bb9b18ee407101}{virtual B\+O\+O\+L {\bfseries On\+Cmd\+Msg} (U\+I\+N\+T n\+I\+D, int n\+Code, void $\ast$p\+Extra, A\+F\+X\+\_\+\+C\+M\+D\+H\+A\+N\+D\+L\+E\+R\+I\+N\+F\+O $\ast$p\+Handler\+Info)}\label{class_c_main_frame_ade959eb0bab719bf06bb9b18ee407101}
+
+\item 
+virtual \hyperlink{class_c_main_frame_a8ae555f23fdf97edb4feb4d3e1bfa4ee}{$\sim$\+C\+Main\+Frame} ()
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_adf171bf1f2c6f10cc85dbe8db3fc93f7}{On\+Size} (U\+I\+N\+T n\+Type, int cx, int cy)
+\item 
+afx\+\_\+msg B\+O\+O\+L \hyperlink{class_c_main_frame_a53a97f2229c5765329b2b59a21a54b0d}{On\+Erase\+Bkgnd} (C\+D\+C $\ast$p\+D\+C)
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_af07c2610f9f5631e7eb7374d10d5fdd3}{On\+Edit\+Move} ()
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_aadc40c4ab290da2368f6b87443f5ffbc}{On\+Update\+Edit\+Move} (C\+Cmd\+U\+I $\ast$p\+Cmd\+U\+I)
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_a00f10667f35de1fa6693c1bea941d878}{On\+Edit\+Rotate} ()
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_af098b8129775d1b5fb47fcaaabce8c01}{On\+Update\+Edit\+Rotate} (C\+Cmd\+U\+I $\ast$p\+Cmd\+U\+I)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+afx\+\_\+msg int \hyperlink{class_c_main_frame_a48666466fd37412fcaeff75c3b12e0ed}{On\+Create} (L\+P\+C\+R\+E\+A\+T\+E\+S\+T\+R\+U\+C\+T lp\+Create\+Struct)
+\item 
+afx\+\_\+msg void \hyperlink{class_c_main_frame_adc353a3d1fc497fbc009b6d9e6914a82}{On\+Set\+Focus} (C\+Wnd $\ast$p\+Old\+Wnd)
+\item 
+virtual B\+O\+O\+L \hyperlink{class_c_main_frame_ac863d694fd3637d492ef97396defbd8e}{On\+Create\+Client} (L\+P\+C\+R\+E\+A\+T\+E\+S\+T\+R\+U\+C\+T lpcs, C\+Create\+Context $\ast$p\+Context)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_main_frame_ac8558942627d1502b5095e736840a1f3}{C\+M\+F\+C\+Tool\+Bar {\bfseries m\+\_\+wnd\+Tool\+Bar}}\label{class_c_main_frame_ac8558942627d1502b5095e736840a1f3}
+
+\item 
+\hypertarget{class_c_main_frame_a5842bded00e9137fbbf77343b99863be}{C\+M\+F\+C\+Status\+Bar \hyperlink{class_c_main_frame_a5842bded00e9137fbbf77343b99863be}{m\+\_\+wnd\+Status\+Bar}}\label{class_c_main_frame_a5842bded00e9137fbbf77343b99863be}
+
+\begin{DoxyCompactList}\small\item\em toolbar \end{DoxyCompactList}\item 
+\hypertarget{class_c_main_frame_a1d68466db594c4bebf41f707bc0a0647}{C\+Splitter\+Wnd \hyperlink{class_c_main_frame_a1d68466db594c4bebf41f707bc0a0647}{m\+Wnd\+Splitter}}\label{class_c_main_frame_a1d68466db594c4bebf41f707bc0a0647}
+
+\begin{DoxyCompactList}\small\item\em status bad \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \hyperlink{class_c_picture}{C\+Picture} $>$ \hyperlink{class_c_main_frame_aee7250305e9d4adb463024fe090a2c10}{m\+Picture}
+\begin{DoxyCompactList}\small\item\em The picture object we are viewing/editing. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Program main frame 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_c_main_frame_a89722c82d82f95a761772a8dd9755b7b}{\index{C\+Main\+Frame@{C\+Main\+Frame}!Motion\+Modes@{Motion\+Modes}}
+\index{Motion\+Modes@{Motion\+Modes}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{Motion\+Modes}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf C\+Main\+Frame\+::\+Motion\+Modes}}}\label{class_c_main_frame_a89722c82d82f95a761772a8dd9755b7b}
+Enumerations for the possible manipulation modes 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_main_frame_af3e997aeae4148d2aaa4a1e1ae7bdd53}{\index{C\+Main\+Frame@{C\+Main\+Frame}!C\+Main\+Frame@{C\+Main\+Frame}}
+\index{C\+Main\+Frame@{C\+Main\+Frame}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{C\+Main\+Frame}]{\setlength{\rightskip}{0pt plus 5cm}C\+Main\+Frame\+::\+C\+Main\+Frame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_af3e997aeae4148d2aaa4a1e1ae7bdd53}
+Constructor \hypertarget{class_c_main_frame_a8ae555f23fdf97edb4feb4d3e1bfa4ee}{\index{C\+Main\+Frame@{C\+Main\+Frame}!````~C\+Main\+Frame@{$\sim$\+C\+Main\+Frame}}
+\index{````~C\+Main\+Frame@{$\sim$\+C\+Main\+Frame}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{$\sim$\+C\+Main\+Frame}]{\setlength{\rightskip}{0pt plus 5cm}C\+Main\+Frame\+::$\sim$\+C\+Main\+Frame (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_main_frame_a8ae555f23fdf97edb4feb4d3e1bfa4ee}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_main_frame_a76c571ab75752dba8049e08f5e4ac920}{\index{C\+Main\+Frame@{C\+Main\+Frame}!Get\+Mode@{Get\+Mode}}
+\index{Get\+Mode@{Get\+Mode}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{Get\+Mode}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Motion\+Modes} C\+Main\+Frame\+::\+Get\+Mode (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_main_frame_a76c571ab75752dba8049e08f5e4ac920}
+The selected manipulation mode \begin{DoxyReturn}{Returns}
+Currently selected manipulation mode 
+\end{DoxyReturn}
+\hypertarget{class_c_main_frame_a48666466fd37412fcaeff75c3b12e0ed}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Create@{On\+Create}}
+\index{On\+Create@{On\+Create}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Create}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Main\+Frame\+::\+On\+Create (
+\begin{DoxyParamCaption}
+\item[{L\+P\+C\+R\+E\+A\+T\+E\+S\+T\+R\+U\+C\+T}]{lp\+Create\+Struct}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_main_frame_a48666466fd37412fcaeff75c3b12e0ed}
+create 
+\begin{DoxyParams}{Parameters}
+{\em lp\+Create\+Struct} & is old \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_main_frame_ac863d694fd3637d492ef97396defbd8e}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Create\+Client@{On\+Create\+Client}}
+\index{On\+Create\+Client@{On\+Create\+Client}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Create\+Client}]{\setlength{\rightskip}{0pt plus 5cm}B\+O\+O\+L C\+Main\+Frame\+::\+On\+Create\+Client (
+\begin{DoxyParamCaption}
+\item[{L\+P\+C\+R\+E\+A\+T\+E\+S\+T\+R\+U\+C\+T}]{lpcs, }
+\item[{C\+Create\+Context $\ast$}]{p\+Context}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_main_frame_ac863d694fd3637d492ef97396defbd8e}
+Oncreate client 
+\begin{DoxyParams}{Parameters}
+{\em lpcs} & is good \\
+\hline
+{\em p\+Context} & is context \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_main_frame_af07c2610f9f5631e7eb7374d10d5fdd3}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Edit\+Move@{On\+Edit\+Move}}
+\index{On\+Edit\+Move@{On\+Edit\+Move}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Edit\+Move}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Edit\+Move (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_af07c2610f9f5631e7eb7374d10d5fdd3}
+Handle the Edit$>$Mode menu option \hypertarget{class_c_main_frame_a00f10667f35de1fa6693c1bea941d878}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Edit\+Rotate@{On\+Edit\+Rotate}}
+\index{On\+Edit\+Rotate@{On\+Edit\+Rotate}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Edit\+Rotate}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Edit\+Rotate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_a00f10667f35de1fa6693c1bea941d878}
+Handle the Edit$>$Rotate menu option \hypertarget{class_c_main_frame_a53a97f2229c5765329b2b59a21a54b0d}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}}
+\index{On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Erase\+Bkgnd}]{\setlength{\rightskip}{0pt plus 5cm}B\+O\+O\+L C\+Main\+Frame\+::\+On\+Erase\+Bkgnd (
+\begin{DoxyParamCaption}
+\item[{C\+D\+C $\ast$}]{p\+D\+C}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_a53a97f2229c5765329b2b59a21a54b0d}
+Called to erase the background. Disabled so we don't get flicker 
+\begin{DoxyParams}{Parameters}
+{\em p\+D\+C} & A device context \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+F\+A\+L\+S\+E 
+\end{DoxyReturn}
+\hypertarget{class_c_main_frame_adc353a3d1fc497fbc009b6d9e6914a82}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Set\+Focus@{On\+Set\+Focus}}
+\index{On\+Set\+Focus@{On\+Set\+Focus}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Set\+Focus}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Set\+Focus (
+\begin{DoxyParamCaption}
+\item[{C\+Wnd $\ast$}]{p\+Old\+Wnd}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_main_frame_adc353a3d1fc497fbc009b6d9e6914a82}
+set focus 
+\begin{DoxyParams}{Parameters}
+{\em p\+Old\+Wnd} & is old \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_main_frame_adf171bf1f2c6f10cc85dbe8db3fc93f7}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Size@{On\+Size}}
+\index{On\+Size@{On\+Size}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Size}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Size (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T}]{n\+Type, }
+\item[{int}]{cx, }
+\item[{int}]{cy}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_adf171bf1f2c6f10cc85dbe8db3fc93f7}
+Handle a Size request from Windows
+
+This function ensures the child windows are the correct size on the screen after the main window is resized 
+\begin{DoxyParams}{Parameters}
+{\em n\+Type} & Type of resizing message \\
+\hline
+{\em cx} & The new width \\
+\hline
+{\em cy} & The new height \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_main_frame_aadc40c4ab290da2368f6b87443f5ffbc}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Update\+Edit\+Move@{On\+Update\+Edit\+Move}}
+\index{On\+Update\+Edit\+Move@{On\+Update\+Edit\+Move}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Update\+Edit\+Move}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Update\+Edit\+Move (
+\begin{DoxyParamCaption}
+\item[{C\+Cmd\+U\+I $\ast$}]{p\+Cmd\+U\+I}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_aadc40c4ab290da2368f6b87443f5ffbc}
+Update the menu for Edit$>$Move 
+\begin{DoxyParams}{Parameters}
+{\em p\+Cmd\+U\+I} & The pointer to the control user interface \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_main_frame_af098b8129775d1b5fb47fcaaabce8c01}{\index{C\+Main\+Frame@{C\+Main\+Frame}!On\+Update\+Edit\+Rotate@{On\+Update\+Edit\+Rotate}}
+\index{On\+Update\+Edit\+Rotate@{On\+Update\+Edit\+Rotate}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{On\+Update\+Edit\+Rotate}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Main\+Frame\+::\+On\+Update\+Edit\+Rotate (
+\begin{DoxyParamCaption}
+\item[{C\+Cmd\+U\+I $\ast$}]{p\+Cmd\+U\+I}
+\end{DoxyParamCaption}
+)}}\label{class_c_main_frame_af098b8129775d1b5fb47fcaaabce8c01}
+Update the menu for Edit$>$Rotate 
+\begin{DoxyParams}{Parameters}
+{\em p\+Cmd\+U\+I} & The pointer to the control user interface \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_c_main_frame_aee7250305e9d4adb463024fe090a2c10}{\index{C\+Main\+Frame@{C\+Main\+Frame}!m\+Picture@{m\+Picture}}
+\index{m\+Picture@{m\+Picture}!C\+Main\+Frame@{C\+Main\+Frame}}
+\subsubsection[{m\+Picture}]{\setlength{\rightskip}{0pt plus 5cm}std\+::shared\+\_\+ptr$<${\bf C\+Picture}$>$ C\+Main\+Frame\+::m\+Picture\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_main_frame_aee7250305e9d4adb463024fe090a2c10}
+
+
+The picture object we are viewing/editing. 
+
+just window var 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_frm_8h}{Main\+Frm.\+h}\item 
+\hyperlink{_main_frm_8cpp}{Main\+Frm.\+cpp}\end{DoxyCompactItemize}

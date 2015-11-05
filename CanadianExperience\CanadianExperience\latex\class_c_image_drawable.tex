@@ -1,0 +1,157 @@
+\hypertarget{class_c_image_drawable}{\section{C\+Image\+Drawable Class Reference}
+\label{class_c_image_drawable}\index{C\+Image\+Drawable@{C\+Image\+Drawable}}
+}
+
+
+{\ttfamily \#include $<$Image\+Drawable.\+h$>$}
+
+Inheritance diagram for C\+Image\+Drawable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_c_image_drawable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_image_drawable_a0af067ad80ece0bea046dded19c5b9d4}{\hyperlink{class_c_image_drawable_a0af067ad80ece0bea046dded19c5b9d4}{C\+Image\+Drawable} ()=delete}\label{class_c_image_drawable_a0af067ad80ece0bea046dded19c5b9d4}
+
+\begin{DoxyCompactList}\small\item\em Default constructor disabled. \end{DoxyCompactList}\item 
+\hypertarget{class_c_image_drawable_a2955356238c638373d39ed99c5422cf3}{\hyperlink{class_c_image_drawable_a2955356238c638373d39ed99c5422cf3}{C\+Image\+Drawable} (const \hyperlink{class_c_image_drawable}{C\+Image\+Drawable} \&)=delete}\label{class_c_image_drawable_a2955356238c638373d39ed99c5422cf3}
+
+\begin{DoxyCompactList}\small\item\em Copy constructor disabled. \end{DoxyCompactList}\item 
+\hypertarget{class_c_image_drawable_a717129f6ce9e9fa5d9a512a85a33a8b1}{void \hyperlink{class_c_image_drawable_a717129f6ce9e9fa5d9a512a85a33a8b1}{operator=} (const \hyperlink{class_c_image_drawable}{C\+Image\+Drawable} \&)=delete}\label{class_c_image_drawable_a717129f6ce9e9fa5d9a512a85a33a8b1}
+
+\begin{DoxyCompactList}\small\item\em Assignment operator disabled. \end{DoxyCompactList}\item 
+Gdiplus\+::\+Point \hyperlink{class_c_image_drawable_adaf3918b7eafe6c3db2c73ffa317f114}{Get\+Center} ()
+\item 
+void \hyperlink{class_c_image_drawable_a11c2376e3516076e7e737a5a266f1c49}{Set\+Center} (Gdiplus\+::\+Point center)
+\item 
+virtual \hyperlink{class_c_image_drawable_a4ecb6e494ba125a2d503bfff1260c2fe}{$\sim$\+C\+Image\+Drawable} ()
+\item 
+\hyperlink{class_c_image_drawable_a0a036788340edfd1765ae6a05cee31a0}{C\+Image\+Drawable} (const std\+::wstring \&name, const std\+::wstring \&filename)
+\item 
+void \hyperlink{class_c_image_drawable_abf591e6f5e92537119ab745eba054bd1}{Draw} (Gdiplus\+::\+Graphics $\ast$graphics)
+\item 
+bool \hyperlink{class_c_image_drawable_ac9f173d9fcb21dbb45f4cbf4593a6984}{Hit\+Test} (Gdiplus\+::\+Point pos)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_image_drawable_ae55a012a4867007fc409db9d71476c71}{std\+::unique\+\_\+ptr$<$ Gdiplus\+::\+Bitmap $>$ \hyperlink{class_c_image_drawable_ae55a012a4867007fc409db9d71476c71}{m\+Image}}\label{class_c_image_drawable_ae55a012a4867007fc409db9d71476c71}
+
+\begin{DoxyCompactList}\small\item\em The image for this drawable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+the image drawable
+
+Inherited from drawable 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_image_drawable_a4ecb6e494ba125a2d503bfff1260c2fe}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!````~C\+Image\+Drawable@{$\sim$\+C\+Image\+Drawable}}
+\index{````~C\+Image\+Drawable@{$\sim$\+C\+Image\+Drawable}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{$\sim$\+C\+Image\+Drawable}]{\setlength{\rightskip}{0pt plus 5cm}C\+Image\+Drawable\+::$\sim$\+C\+Image\+Drawable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_image_drawable_a4ecb6e494ba125a2d503bfff1260c2fe}
+Deconstructor \hypertarget{class_c_image_drawable_a0a036788340edfd1765ae6a05cee31a0}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\index{C\+Image\+Drawable@{C\+Image\+Drawable}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{C\+Image\+Drawable}]{\setlength{\rightskip}{0pt plus 5cm}C\+Image\+Drawable\+::\+C\+Image\+Drawable (
+\begin{DoxyParamCaption}
+\item[{const std\+::wstring \&}]{name, }
+\item[{const std\+::wstring \&}]{filename}
+\end{DoxyParamCaption}
+)}}\label{class_c_image_drawable_a0a036788340edfd1765ae6a05cee31a0}
+cons 
+\begin{DoxyParams}{Parameters}
+{\em name} & is name \\
+\hline
+{\em filename} & for constructor\\
+\hline
+\end{DoxyParams}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em name} & The drawable name \\
+\hline
+{\em filename} & The filename for the image \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_image_drawable_abf591e6f5e92537119ab745eba054bd1}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!Draw@{Draw}}
+\index{Draw@{Draw}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Image\+Drawable\+::\+Draw (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Graphics $\ast$}]{graphics}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_image_drawable_abf591e6f5e92537119ab745eba054bd1}
+Draw 
+\begin{DoxyParams}{Parameters}
+{\em graphics} & object for drawing.\\
+\hline
+\end{DoxyParams}
+Draw the image drawable 
+\begin{DoxyParams}{Parameters}
+{\em graphics} & Graphics context to draw on \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_c_drawable_a9b6a9920a75d88d9ae321997495eaec7}{C\+Drawable}.
+
+\hypertarget{class_c_image_drawable_adaf3918b7eafe6c3db2c73ffa317f114}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!Get\+Center@{Get\+Center}}
+\index{Get\+Center@{Get\+Center}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{Get\+Center}]{\setlength{\rightskip}{0pt plus 5cm}Gdiplus\+::\+Point C\+Image\+Drawable\+::\+Get\+Center (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_image_drawable_adaf3918b7eafe6c3db2c73ffa317f114}
+center \begin{DoxyReturn}{Returns}
+m\+Center 
+\end{DoxyReturn}
+\hypertarget{class_c_image_drawable_ac9f173d9fcb21dbb45f4cbf4593a6984}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!Hit\+Test@{Hit\+Test}}
+\index{Hit\+Test@{Hit\+Test}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{Hit\+Test}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Image\+Drawable\+::\+Hit\+Test (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Point}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_image_drawable_ac9f173d9fcb21dbb45f4cbf4593a6984}
+cons 
+\begin{DoxyParams}{Parameters}
+{\em pos} & position\\
+\hline
+\end{DoxyParams}
+Test to see if we clicked on the image. 
+\begin{DoxyParams}{Parameters}
+{\em pos} & Position to test \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if clicked on 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_c_drawable_af715bc2e79788b2a44a74ad70b181544}{C\+Drawable}.
+
+\hypertarget{class_c_image_drawable_a11c2376e3516076e7e737a5a266f1c49}{\index{C\+Image\+Drawable@{C\+Image\+Drawable}!Set\+Center@{Set\+Center}}
+\index{Set\+Center@{Set\+Center}!C\+Image\+Drawable@{C\+Image\+Drawable}}
+\subsubsection[{Set\+Center}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Image\+Drawable\+::\+Set\+Center (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Point}]{center}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_image_drawable_a11c2376e3516076e7e737a5a266f1c49}
+Sets center 
+\begin{DoxyParams}{Parameters}
+{\em center} & is m variable \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_image_drawable_8h}{Image\+Drawable.\+h}\item 
+Image\+Drawable.\+cpp\end{DoxyCompactItemize}

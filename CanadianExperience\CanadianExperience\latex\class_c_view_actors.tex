@@ -1,0 +1,131 @@
+\hypertarget{class_c_view_actors}{\section{C\+View\+Actors Class Reference}
+\label{class_c_view_actors}\index{C\+View\+Actors@{C\+View\+Actors}}
+}
+
+
+{\ttfamily \#include $<$View\+Actors.\+h$>$}
+
+Inheritance diagram for C\+View\+Actors\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_view_actors}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+afx\+\_\+msg B\+O\+O\+L \hyperlink{class_c_view_actors_a561f4be212bd5df4a667c2cb0b23e472}{On\+Erase\+Bkgnd} (C\+D\+C $\ast$p\+D\+C)
+\item 
+void \hyperlink{class_c_view_actors_a6f68ae9e71f6a195502464bf34b3e724}{Set\+Main\+Frame} (\hyperlink{class_c_main_frame}{C\+Main\+Frame} $\ast$main\+Frame)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_view_actors_a8bb27cbe8ae099abbed012adca884f1f}{static const int \hyperlink{class_c_view_actors_a8bb27cbe8ae099abbed012adca884f1f}{Width} = 150}\label{class_c_view_actors_a8bb27cbe8ae099abbed012adca884f1f}
+
+\begin{DoxyCompactList}\small\item\em Width we want for this window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_view_actors_aeff00d958ecea52760ec07c0420c4e28}{C\+View\+Actors} ()
+\begin{DoxyCompactList}\small\item\em $\ast$/ \end{DoxyCompactList}\item 
+virtual \hyperlink{class_c_view_actors_a6e1aa1c82708dd805ac90c21b6d521e0}{$\sim$\+C\+View\+Actors} ()
+\item 
+virtual void \hyperlink{class_c_view_actors_a5014f8c616850b8e874dee895b2ba698}{Update\+Observer} () override
+\item 
+virtual void \hyperlink{class_c_view_actors_aa68465c2f13e487426508832a6355503}{On\+Draw} (C\+D\+C $\ast$p\+D\+C)
+\item 
+virtual void \hyperlink{class_c_view_actors_aaf83b3647a42330c01be9067a6235d33}{On\+Initial\+Update} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that provides a view windows for actors. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_view_actors_aeff00d958ecea52760ec07c0420c4e28}{\index{C\+View\+Actors@{C\+View\+Actors}!C\+View\+Actors@{C\+View\+Actors}}
+\index{C\+View\+Actors@{C\+View\+Actors}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{C\+View\+Actors}]{\setlength{\rightskip}{0pt plus 5cm}C\+View\+Actors\+::\+C\+View\+Actors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_c_view_actors_aeff00d958ecea52760ec07c0420c4e28}
+
+
+$\ast$/ 
+
+Constructor \hypertarget{class_c_view_actors_a6e1aa1c82708dd805ac90c21b6d521e0}{\index{C\+View\+Actors@{C\+View\+Actors}!````~C\+View\+Actors@{$\sim$\+C\+View\+Actors}}
+\index{````~C\+View\+Actors@{$\sim$\+C\+View\+Actors}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{$\sim$\+C\+View\+Actors}]{\setlength{\rightskip}{0pt plus 5cm}C\+View\+Actors\+::$\sim$\+C\+View\+Actors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_actors_a6e1aa1c82708dd805ac90c21b6d521e0}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_view_actors_aa68465c2f13e487426508832a6355503}{\index{C\+View\+Actors@{C\+View\+Actors}!On\+Draw@{On\+Draw}}
+\index{On\+Draw@{On\+Draw}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{On\+Draw}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Actors\+::\+On\+Draw (
+\begin{DoxyParamCaption}
+\item[{C\+D\+C $\ast$}]{p\+D\+C}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_actors_aa68465c2f13e487426508832a6355503}
+Draw this window 
+\begin{DoxyParams}{Parameters}
+{\em p\+D\+C} & Device context \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_actors_a561f4be212bd5df4a667c2cb0b23e472}{\index{C\+View\+Actors@{C\+View\+Actors}!On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}}
+\index{On\+Erase\+Bkgnd@{On\+Erase\+Bkgnd}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{On\+Erase\+Bkgnd}]{\setlength{\rightskip}{0pt plus 5cm}B\+O\+O\+L C\+View\+Actors\+::\+On\+Erase\+Bkgnd (
+\begin{DoxyParamCaption}
+\item[{C\+D\+C $\ast$}]{p\+D\+C}
+\end{DoxyParamCaption}
+)}}\label{class_c_view_actors_a561f4be212bd5df4a667c2cb0b23e472}
+Erase the background
+
+This is disabled to eliminate flicker 
+\begin{DoxyParams}{Parameters}
+{\em p\+D\+C} & Device context \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+F\+A\+L\+S\+E 
+\end{DoxyReturn}
+\hypertarget{class_c_view_actors_aaf83b3647a42330c01be9067a6235d33}{\index{C\+View\+Actors@{C\+View\+Actors}!On\+Initial\+Update@{On\+Initial\+Update}}
+\index{On\+Initial\+Update@{On\+Initial\+Update}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{On\+Initial\+Update}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Actors\+::\+On\+Initial\+Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_actors_aaf83b3647a42330c01be9067a6235d33}
+Handle the initial update for this window \hypertarget{class_c_view_actors_a6f68ae9e71f6a195502464bf34b3e724}{\index{C\+View\+Actors@{C\+View\+Actors}!Set\+Main\+Frame@{Set\+Main\+Frame}}
+\index{Set\+Main\+Frame@{Set\+Main\+Frame}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{Set\+Main\+Frame}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Actors\+::\+Set\+Main\+Frame (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Main\+Frame} $\ast$}]{main\+Frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_view_actors_a6f68ae9e71f6a195502464bf34b3e724}
+Set the main\+Frame pointer 
+\begin{DoxyParams}{Parameters}
+{\em main\+Frame} & Pointer to the \hyperlink{class_c_main_frame}{C\+Main\+Frame} window \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_view_actors_a5014f8c616850b8e874dee895b2ba698}{\index{C\+View\+Actors@{C\+View\+Actors}!Update\+Observer@{Update\+Observer}}
+\index{Update\+Observer@{Update\+Observer}!C\+View\+Actors@{C\+View\+Actors}}
+\subsubsection[{Update\+Observer}]{\setlength{\rightskip}{0pt plus 5cm}void C\+View\+Actors\+::\+Update\+Observer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_c_view_actors_a5014f8c616850b8e874dee895b2ba698}
+Force an update of this window when the picture changes. 
+
+Implements \hyperlink{class_c_picture_observer_a0dce27216a8cb8a2490f0efc83a5994a}{C\+Picture\+Observer}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_view_actors_8h}{View\+Actors.\+h}\item 
+\hyperlink{_view_actors_8cpp}{View\+Actors.\+cpp}\end{DoxyCompactItemize}

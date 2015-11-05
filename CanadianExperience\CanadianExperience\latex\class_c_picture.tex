@@ -1,0 +1,191 @@
+\hypertarget{class_c_picture}{\section{C\+Picture Class Reference}
+\label{class_c_picture}\index{C\+Picture@{C\+Picture}}
+}
+
+
+{\ttfamily \#include $<$Picture.\+h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_c_picture_1_1_actor_iter}{Actor\+Iter}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_picture_a4e3783bef1f9d565b8a9f5e9680685ab}{C\+Picture} ()
+\item 
+virtual \hyperlink{class_c_picture_a763d6f41025f8e3f39c3ed264aac623c}{$\sim$\+C\+Picture} ()
+\item 
+\hypertarget{class_c_picture_aa74c697e3bcca50430acbfa582f7a928}{\hyperlink{class_c_picture_aa74c697e3bcca50430acbfa582f7a928}{C\+Picture} (const \hyperlink{class_c_picture}{C\+Picture} \&)=delete}\label{class_c_picture_aa74c697e3bcca50430acbfa582f7a928}
+
+\begin{DoxyCompactList}\small\item\em Copy Constructor (Disabled) \end{DoxyCompactList}\item 
+\hypertarget{class_c_picture_a8b0fe5e8e17f415d010eedab79555b6e}{\hyperlink{class_c_picture}{C\+Picture} \& \hyperlink{class_c_picture_a8b0fe5e8e17f415d010eedab79555b6e}{operator=} (const \hyperlink{class_c_picture}{C\+Picture} \&)=delete}\label{class_c_picture_a8b0fe5e8e17f415d010eedab79555b6e}
+
+\begin{DoxyCompactList}\small\item\em Assignment Operator (Disabled) \end{DoxyCompactList}\item 
+Gdiplus\+::\+Size \hyperlink{class_c_picture_af2677c395a3cb8d6e7d0860839801e5b}{Get\+Size} ()
+\item 
+void \hyperlink{class_c_picture_a66b8de27d3435e19024307254e918e3a}{Set\+Size} (Gdiplus\+::\+Size size)
+\item 
+void \hyperlink{class_c_picture_a6be8632e9b1c468dcf27e8452baf5605}{Add\+Observer} (\hyperlink{class_c_picture_observer}{C\+Picture\+Observer} $\ast$observer)
+\item 
+void \hyperlink{class_c_picture_a548ad72979b2a11c2669d9896f32bf92}{Remove\+Observer} (\hyperlink{class_c_picture_observer}{C\+Picture\+Observer} $\ast$observer)
+\item 
+void \hyperlink{class_c_picture_a971ca9c9100725b7d1a900adcfe889d6}{Update\+Observers} ()
+\item 
+void \hyperlink{class_c_picture_aca6a4829388fdfe3ecdc42f0e788b712}{Draw} (Gdiplus\+::\+Graphics $\ast$graphics)
+\begin{DoxyCompactList}\small\item\em draws \end{DoxyCompactList}\item 
+void \hyperlink{class_c_picture_a90799f3ea10ffea8fbb0ea2b9d24a525}{Add\+Actor} (std\+::shared\+\_\+ptr$<$ \hyperlink{class_c_actor}{C\+Actor} $>$ actor)
+\begin{DoxyCompactList}\small\item\em adds that actor \end{DoxyCompactList}\item 
+\hyperlink{class_c_picture_1_1_actor_iter}{Actor\+Iter} \hyperlink{class_c_picture_a8461cc11cc1ce334b4cf92e2ee4a4ebe}{begin} ()
+\item 
+\hyperlink{class_c_picture_1_1_actor_iter}{Actor\+Iter} \hyperlink{class_c_picture_a63840c7eff74388a204c750908a23933}{end} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+the picture
+
+Lots of picture drawables 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_picture_a4e3783bef1f9d565b8a9f5e9680685ab}{\index{C\+Picture@{C\+Picture}!C\+Picture@{C\+Picture}}
+\index{C\+Picture@{C\+Picture}!C\+Picture@{C\+Picture}}
+\subsubsection[{C\+Picture}]{\setlength{\rightskip}{0pt plus 5cm}C\+Picture\+::\+C\+Picture (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_picture_a4e3783bef1f9d565b8a9f5e9680685ab}
+Default constuctor \hypertarget{class_c_picture_a763d6f41025f8e3f39c3ed264aac623c}{\index{C\+Picture@{C\+Picture}!````~C\+Picture@{$\sim$\+C\+Picture}}
+\index{````~C\+Picture@{$\sim$\+C\+Picture}!C\+Picture@{C\+Picture}}
+\subsubsection[{$\sim$\+C\+Picture}]{\setlength{\rightskip}{0pt plus 5cm}C\+Picture\+::$\sim$\+C\+Picture (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_picture_a763d6f41025f8e3f39c3ed264aac623c}
+Destuctor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_picture_a90799f3ea10ffea8fbb0ea2b9d24a525}{\index{C\+Picture@{C\+Picture}!Add\+Actor@{Add\+Actor}}
+\index{Add\+Actor@{Add\+Actor}!C\+Picture@{C\+Picture}}
+\subsubsection[{Add\+Actor}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Add\+Actor (
+\begin{DoxyParamCaption}
+\item[{std\+::shared\+\_\+ptr$<$ {\bf C\+Actor} $>$}]{actor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_picture_a90799f3ea10ffea8fbb0ea2b9d24a525}
+
+
+adds that actor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em actor} & to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_picture_a6be8632e9b1c468dcf27e8452baf5605}{\index{C\+Picture@{C\+Picture}!Add\+Observer@{Add\+Observer}}
+\index{Add\+Observer@{Add\+Observer}!C\+Picture@{C\+Picture}}
+\subsubsection[{Add\+Observer}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Add\+Observer (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Picture\+Observer} $\ast$}]{observer}
+\end{DoxyParamCaption}
+)}}\label{class_c_picture_a6be8632e9b1c468dcf27e8452baf5605}
+adds new observer 
+\begin{DoxyParams}{Parameters}
+{\em observer} & thing to add\\
+\hline
+\end{DoxyParams}
+Add an observer to this picture. 
+\begin{DoxyParams}{Parameters}
+{\em observer} & The observer to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_picture_a8461cc11cc1ce334b4cf92e2ee4a4ebe}{\index{C\+Picture@{C\+Picture}!begin@{begin}}
+\index{begin@{begin}!C\+Picture@{C\+Picture}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Actor\+Iter} C\+Picture\+::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_picture_a8461cc11cc1ce334b4cf92e2ee4a4ebe}
+begin \begin{DoxyReturn}{Returns}
+beginning 
+\end{DoxyReturn}
+\hypertarget{class_c_picture_aca6a4829388fdfe3ecdc42f0e788b712}{\index{C\+Picture@{C\+Picture}!Draw@{Draw}}
+\index{Draw@{Draw}!C\+Picture@{C\+Picture}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Draw (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Graphics $\ast$}]{graphics}
+\end{DoxyParamCaption}
+)}}\label{class_c_picture_aca6a4829388fdfe3ecdc42f0e788b712}
+
+
+draws 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graphics} & to draw \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_picture_a63840c7eff74388a204c750908a23933}{\index{C\+Picture@{C\+Picture}!end@{end}}
+\index{end@{end}!C\+Picture@{C\+Picture}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Actor\+Iter} C\+Picture\+::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_picture_a63840c7eff74388a204c750908a23933}
+end collection \begin{DoxyReturn}{Returns}
+ending 
+\end{DoxyReturn}
+\hypertarget{class_c_picture_af2677c395a3cb8d6e7d0860839801e5b}{\index{C\+Picture@{C\+Picture}!Get\+Size@{Get\+Size}}
+\index{Get\+Size@{Get\+Size}!C\+Picture@{C\+Picture}}
+\subsubsection[{Get\+Size}]{\setlength{\rightskip}{0pt plus 5cm}Gdiplus\+::\+Size C\+Picture\+::\+Get\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_picture_af2677c395a3cb8d6e7d0860839801e5b}
+The picture size \begin{DoxyReturn}{Returns}
+Size 
+\end{DoxyReturn}
+\hypertarget{class_c_picture_a548ad72979b2a11c2669d9896f32bf92}{\index{C\+Picture@{C\+Picture}!Remove\+Observer@{Remove\+Observer}}
+\index{Remove\+Observer@{Remove\+Observer}!C\+Picture@{C\+Picture}}
+\subsubsection[{Remove\+Observer}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Remove\+Observer (
+\begin{DoxyParamCaption}
+\item[{{\bf C\+Picture\+Observer} $\ast$}]{observer}
+\end{DoxyParamCaption}
+)}}\label{class_c_picture_a548ad72979b2a11c2669d9896f32bf92}
+removes observer 
+\begin{DoxyParams}{Parameters}
+{\em observer} & \\
+\hline
+\end{DoxyParams}
+Remove an observer from this picture 
+\begin{DoxyParams}{Parameters}
+{\em observer} & The observer to remove \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_picture_a66b8de27d3435e19024307254e918e3a}{\index{C\+Picture@{C\+Picture}!Set\+Size@{Set\+Size}}
+\index{Set\+Size@{Set\+Size}!C\+Picture@{C\+Picture}}
+\subsubsection[{Set\+Size}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Set\+Size (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Size}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_picture_a66b8de27d3435e19024307254e918e3a}
+The picture size 
+\begin{DoxyParams}{Parameters}
+{\em size} & The new picture size \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_picture_a971ca9c9100725b7d1a900adcfe889d6}{\index{C\+Picture@{C\+Picture}!Update\+Observers@{Update\+Observers}}
+\index{Update\+Observers@{Update\+Observers}!C\+Picture@{C\+Picture}}
+\subsubsection[{Update\+Observers}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Picture\+::\+Update\+Observers (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_picture_a971ca9c9100725b7d1a900adcfe889d6}
+Updates
+
+Update all observers to indicate the picture has changed. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_picture_8h}{Picture.\+h}\item 
+\hyperlink{_picture_8cpp}{Picture.\+cpp}\end{DoxyCompactItemize}

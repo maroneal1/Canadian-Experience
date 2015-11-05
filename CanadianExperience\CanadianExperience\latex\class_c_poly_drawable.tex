@@ -1,0 +1,162 @@
+\hypertarget{class_c_poly_drawable}{\section{C\+Poly\+Drawable Class Reference}
+\label{class_c_poly_drawable}\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+}
+
+
+{\ttfamily \#include $<$Poly\+Drawable.\+h$>$}
+
+Inheritance diagram for C\+Poly\+Drawable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_poly_drawable}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_poly_drawable_ae4265afa898200aa70a943cdea3f8123}{\hyperlink{class_c_poly_drawable_ae4265afa898200aa70a943cdea3f8123}{C\+Poly\+Drawable} ()=delete}\label{class_c_poly_drawable_ae4265afa898200aa70a943cdea3f8123}
+
+\begin{DoxyCompactList}\small\item\em Default constructor disabled. \end{DoxyCompactList}\item 
+\hypertarget{class_c_poly_drawable_abfdd10484ab2cb6ea99c01849cad4082}{\hyperlink{class_c_poly_drawable_abfdd10484ab2cb6ea99c01849cad4082}{C\+Poly\+Drawable} (const \hyperlink{class_c_poly_drawable}{C\+Poly\+Drawable} \&)=delete}\label{class_c_poly_drawable_abfdd10484ab2cb6ea99c01849cad4082}
+
+\begin{DoxyCompactList}\small\item\em Copy constructor disabled. \end{DoxyCompactList}\item 
+\hypertarget{class_c_poly_drawable_a86a6c65081b7feb556e5563b36a6ac8a}{void \hyperlink{class_c_poly_drawable_a86a6c65081b7feb556e5563b36a6ac8a}{operator=} (const \hyperlink{class_c_poly_drawable}{C\+Poly\+Drawable} \&)=delete}\label{class_c_poly_drawable_a86a6c65081b7feb556e5563b36a6ac8a}
+
+\begin{DoxyCompactList}\small\item\em Assignment operator disabled. \end{DoxyCompactList}\item 
+\hyperlink{class_c_poly_drawable_a0afc2421a1a15fa7065423ccbe6d6ecc}{C\+Poly\+Drawable} (const std\+::wstring \&name)
+\item 
+Gdiplus\+::\+Color \hyperlink{class_c_poly_drawable_ab14b6cfd0e8c3ae025daa43465a1811f}{Get\+Color} ()
+\begin{DoxyCompactList}\small\item\em Get colors. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_poly_drawable_a9f53b3d0a6ee9aa6f34a0c44a5a2cd66}{Set\+Color} (Gdiplus\+::\+Color incolor)
+\begin{DoxyCompactList}\small\item\em set colors \end{DoxyCompactList}\item 
+void \hyperlink{class_c_poly_drawable_a500a475002f4be3cfe6ed865aea0a827}{Add\+Point} (Gdiplus\+::\+Point point)
+\begin{DoxyCompactList}\small\item\em adds a point \end{DoxyCompactList}\item 
+void \hyperlink{class_c_poly_drawable_a30d59469ee2db1cd0bf786ffff031bdf}{Draw} (Gdiplus\+::\+Graphics $\ast$graphics)
+\begin{DoxyCompactList}\small\item\em draws \end{DoxyCompactList}\item 
+bool \hyperlink{class_c_poly_drawable_af45e78d42d9eee657e0bedde0fe003e4}{Hit\+Test} (Gdiplus\+::\+Point pos)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A drawable based on polygon images.
+
+This class has a list of points and draws a polygon drawable based on those points. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_poly_drawable_a0afc2421a1a15fa7065423ccbe6d6ecc}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{C\+Poly\+Drawable}]{\setlength{\rightskip}{0pt plus 5cm}C\+Poly\+Drawable\+::\+C\+Poly\+Drawable (
+\begin{DoxyParamCaption}
+\item[{const std\+::wstring \&}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_c_poly_drawable_a0afc2421a1a15fa7065423ccbe6d6ecc}
+Constructor 
+\begin{DoxyParams}{Parameters}
+{\em name} & The drawable name \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_poly_drawable_a500a475002f4be3cfe6ed865aea0a827}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!Add\+Point@{Add\+Point}}
+\index{Add\+Point@{Add\+Point}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{Add\+Point}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Poly\+Drawable\+::\+Add\+Point (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Point}]{point}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_poly_drawable_a500a475002f4be3cfe6ed865aea0a827}
+
+
+adds a point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em point} & to add \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_poly_drawable_a30d59469ee2db1cd0bf786ffff031bdf}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!Draw@{Draw}}
+\index{Draw@{Draw}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Poly\+Drawable\+::\+Draw (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Graphics $\ast$}]{graphics}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_poly_drawable_a30d59469ee2db1cd0bf786ffff031bdf}
+
+
+draws 
+
+
+\begin{DoxyParams}{Parameters}
+{\em graphics} & to draw\\
+\hline
+\end{DoxyParams}
+Draw our polygon. 
+\begin{DoxyParams}{Parameters}
+{\em graphics} & The graphics context to draw on \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{class_c_drawable_a9b6a9920a75d88d9ae321997495eaec7}{C\+Drawable}.
+
+\hypertarget{class_c_poly_drawable_ab14b6cfd0e8c3ae025daa43465a1811f}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!Get\+Color@{Get\+Color}}
+\index{Get\+Color@{Get\+Color}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{Get\+Color}]{\setlength{\rightskip}{0pt plus 5cm}Gdiplus\+::\+Color C\+Poly\+Drawable\+::\+Get\+Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_poly_drawable_ab14b6cfd0e8c3ae025daa43465a1811f}
+
+
+Get colors. 
+
+\begin{DoxyReturn}{Returns}
+member var color 
+\end{DoxyReturn}
+\hypertarget{class_c_poly_drawable_af45e78d42d9eee657e0bedde0fe003e4}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!Hit\+Test@{Hit\+Test}}
+\index{Hit\+Test@{Hit\+Test}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{Hit\+Test}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Poly\+Drawable\+::\+Hit\+Test (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Point}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_c_poly_drawable_af45e78d42d9eee657e0bedde0fe003e4}
+hit test 
+\begin{DoxyParams}{Parameters}
+{\em pos} & position\\
+\hline
+\end{DoxyParams}
+Test to see if we hit this object with a mouse click 
+\begin{DoxyParams}{Parameters}
+{\em pos} & Click position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true it hit 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{class_c_drawable_af715bc2e79788b2a44a74ad70b181544}{C\+Drawable}.
+
+\hypertarget{class_c_poly_drawable_a9f53b3d0a6ee9aa6f34a0c44a5a2cd66}{\index{C\+Poly\+Drawable@{C\+Poly\+Drawable}!Set\+Color@{Set\+Color}}
+\index{Set\+Color@{Set\+Color}!C\+Poly\+Drawable@{C\+Poly\+Drawable}}
+\subsubsection[{Set\+Color}]{\setlength{\rightskip}{0pt plus 5cm}void C\+Poly\+Drawable\+::\+Set\+Color (
+\begin{DoxyParamCaption}
+\item[{Gdiplus\+::\+Color}]{incolor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_c_poly_drawable_a9f53b3d0a6ee9aa6f34a0c44a5a2cd66}
+
+
+set colors 
+
+
+\begin{DoxyParams}{Parameters}
+{\em incolor} & sets member var color \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_poly_drawable_8h}{Poly\+Drawable.\+h}\item 
+Poly\+Drawable.\+cpp\end{DoxyCompactItemize}
